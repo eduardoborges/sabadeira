@@ -21,3 +21,4 @@ export { default as date } from './dayjs';
 export { default as wait } from './wait/wait';
 export { default as inputmask } from 'inputmask';
 export { default as mockable } from './mockable';
+export { default as renderWithState } from './renderWithState';

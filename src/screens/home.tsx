@@ -23,9 +23,9 @@ export default () => {
           </h1>
           { users.isLoading ? <span>Carregando...</span> : null }
 
-          <ul>
+          <ul data-testid="render-guys">
             {users.data.map((user) => (
-              <li>{user.name} - {user.email}</li>
+              <li key={user.uid}>{user.name} - {user.email}</li>
             ))}
           </ul>
 
