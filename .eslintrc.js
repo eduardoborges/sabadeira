@@ -55,7 +55,8 @@ module.exports = {
     "@typescript-eslint/ban-ts-comment": "off",
     "react/jsx-filename-extension": [
       "error", { "extensions": [".ts", ".tsx", ".js", ".jsx"] }
-    ]
+    ],
+    "import/no-extraneous-dependencies": "off",
   },
   settings:{
     "import/resolver":{

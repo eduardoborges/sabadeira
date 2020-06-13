@@ -1,11 +1,12 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+
+import store from 'store/configure';
+
+import Home from 'screens/home';
 
 export default () => (
-  <div className="hero is-fullheight is-primary">
-    <div className="hero-body">
-      <div className="container">
-        <h1 className="title">Hello world!</h1>
-      </div>
-    </div>
-  </div>
+  <Provider store={store}>
+    <Home />
+  </Provider>
 );
