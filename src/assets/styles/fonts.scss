@@ -1,0 +1,47 @@
+// Circular
+$circular: 'Circular';
+
+* {
+  -webkit-font-smoothing: antialiased !important; 
+}
+
+@font-face {
+  font-family: $circular;
+  font-weight: 700;
+  src: url('../fonts/circular/CircularXXWeb-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: $circular;
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/circular/CircularXXWeb-MediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: $circular;
+  font-weight: normal;
+  src: url('../fonts/circular/CircularXXWeb-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: $circular;
+  font-style: italic;
+  font-weight: normal;
+  src: url('../fonts/circular/CircularXXWeb-BookItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: $circular;
+  font-weight: 300;
+  src: url('../fonts/circular/CircularXXWeb-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: $circular;
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/circular/CircularXXWeb-LightItalic.woff') format('woff');
+}
