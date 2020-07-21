@@ -38,7 +38,7 @@
     "dayjs": "1.8.28",
     "faker": "4.1.0",
     "inputmask": "5.0.3",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "ramda": "0.27.0",
     "react": "16.13.1",
     "react-bulma-components": "^3.3.0",
